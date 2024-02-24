@@ -34,7 +34,9 @@ import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-
+/**
+ * @author Estevam Meneses
+ */
 @Controller
 public class AuthorizationConsentController {
 	private final RegisteredClientRepository registeredClientRepository;

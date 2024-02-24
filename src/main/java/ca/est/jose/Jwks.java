@@ -29,7 +29,9 @@ import com.nimbusds.jose.jwk.ECKey;
 import com.nimbusds.jose.jwk.OctetSequenceKey;
 import com.nimbusds.jose.jwk.RSAKey;
 
-
+/**
+ * @author Estevam Meneses
+ */
 public final class Jwks {
 
 	private Jwks() {
@@ -68,5 +70,4 @@ public final class Jwks {
 				.build();
 	
 	}
-
 }

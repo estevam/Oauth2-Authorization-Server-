@@ -1,8 +1,6 @@
 
 package ca.est.web.authentication;
 
-import jakarta.servlet.http.HttpServletRequest;
-
 import org.springframework.http.HttpMethod;
 import org.springframework.lang.Nullable;
 import org.springframework.security.core.Authentication;
@@ -18,7 +16,10 @@ import org.springframework.security.web.util.matcher.RequestMatcher;
 import org.springframework.util.StringUtils;
 
 import ca.est.authentication.DeviceClientAuthenticationToken;
-
+import jakarta.servlet.http.HttpServletRequest;
+/**
+ * @author Estevam Meneses
+ */
 public final class DeviceClientAuthenticationConverter implements AuthenticationConverter {
 	private final RequestMatcher deviceAuthorizationRequestMatcher;
 	private final RequestMatcher deviceAccessTokenRequestMatcher;

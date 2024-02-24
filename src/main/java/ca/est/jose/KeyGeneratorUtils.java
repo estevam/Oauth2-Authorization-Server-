@@ -25,7 +25,9 @@ import java.security.spec.EllipticCurve;
 
 import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
-
+/**
+ * @author Estevam Meneses
+ */
 final class KeyGeneratorUtils {
 
 	private KeyGeneratorUtils() {

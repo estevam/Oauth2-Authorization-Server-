@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
  * @author Estevam Meneses
  */
 @RestController
-
 public class UserController {
 	//private final UserService userService;
 
