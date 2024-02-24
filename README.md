@@ -1,6 +1,9 @@
 # Oauth2 Authorization Server 
 
-OAuth authorization server will serve as an authentication source for both the article resource and client servers.
+OAuth authorization server by external client and custom authorization server.
+
+## Purpose of the Oauth2 Authorization server
+At its core, an authorization server is simply an engine for minting OpenID Connect or OAuth 2.0 tokens. An authorization server is also used to apply access policies. Each authorization server has a unique issuer URI and its own signing key for tokens to keep a proper boundary between security domains.
 
 ## Dependency 
 * Java 21
@@ -35,8 +38,9 @@ client_secret=secret
 grant_type=client_credentials
 ```
 
-http://localhost:9000/.well-known/oauth-authorization-server [GET]
+http://localhost:9000/.well-known/openid-configuration [GET]
 
+http://localhost:9000/.well-known/oauth-authorization-server[GET]
 
 
 ## H2 Database 
