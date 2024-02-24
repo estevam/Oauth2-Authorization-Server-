@@ -40,7 +40,7 @@ grant_type=client_credentials
 
 http://localhost:9000/.well-known/openid-configuration [GET]
 
-http://localhost:9000/.well-known/oauth-authorization-server[GET]
+http://localhost:9000/.well-known/oauth-authorization-server [GET]
 
 
 ## H2 Database 
